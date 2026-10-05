@@ -10,7 +10,7 @@ import NotFound from "./pages/notFound";
 export default function App() {
   const [darkMode, setDarkMode] = useState(false);
   const [favorites, setFavorites] = useState([]);
-
+// Main application component with routing and theme providers
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add("dark");
